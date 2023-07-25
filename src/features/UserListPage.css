@@ -1,0 +1,35 @@
+/* userTable.css */
+
+/* Styling for the entire user list container */
+.user-list-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the table */
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Styling for table header */
+  .user-table th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Styling for table rows */
+  .user-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Styling for even rows */
+  .user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
